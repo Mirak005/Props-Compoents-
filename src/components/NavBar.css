@@ -1,0 +1,23 @@
+
+.nav-bar{
+    display: flex ;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0.5rem  1rem ;
+    box-shadow: 1px 1px 12px 0px #0000001f;
+  
+  }
+  
+  .nav-bar > ul{
+    list-style: none;
+    display: flex ; 
+    justify-content: space-around;
+  }
+  
+  .nav-bar > ul > li{
+    padding: 0.5rem;
+  }
+  
+  .nav-bar > ul > li:hover{
+    text-decoration: underline;
+  }
